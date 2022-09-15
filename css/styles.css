@@ -1,0 +1,236 @@
+.top-contact {
+  background-color: black;
+  color: white;
+  font-size: 0.9rem;
+  height: 2rem;
+  width: 99%;
+}
+
+.flexcontainer {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+
+.flex {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.right {
+  justify-content: flex-end;
+  padding: 0.5em;
+  flex-direction: row;
+}
+
+.header {
+  display: block;
+  box-sizing: border-box;
+}
+
+.header-fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+ul {
+  align-items: center;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  margin: 1vh;
+  max-width: 1401px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-wrap {
+  padding: 0.5em;
+  flex-basis: 100%;
+}
+
+.background {
+  background-image: url(../images/pubvagabond.jpg);
+  width: 100%;
+}
+
+.between {
+  justify-content: space-between;
+  display: flex;
+  margin-right: 1rem;
+}
+
+a {
+  margin-left: 25px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  transition-duration: 0.5s;
+  color: rgb(255, 179, 38);
+}
+
+.transbox {
+  background-color: white;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.main {
+  height: 800px;
+  align-content: flex-end;
+}
+
+.main section {
+  background-color: white;
+  background: rgba(255, 255, 255, 0.6);
+  font-weight: bold;
+  width: 100%;
+  position: relative;
+  bottom: 0%;
+}
+
+.section-align {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-align h3 {
+  margin-left: 10%;
+}
+
+.section-align p {
+  max-width: 30rem;
+  margin-left: 10%;
+}
+
+.footer {
+  background-color: black;
+  height: auto;
+
+}
+
+.footer-text {
+  color: white;
+  margin-right: 10%;
+  margin-top: 1%;
+}
+
+.footer-flex {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.footer-flex p:first-child {
+  margin-top: 3rem;
+}
+
+nav {
+  margin-right: 25%;
+}
+
+.toplogo {
+  margin-left: 15%;
+}
+
+.grid-container {
+  display: grid;
+  background-color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 5px ridge rgb(97, 86, 86);
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  padding: 2rem;
+}
+
+.dishes-container {
+  border-bottom: dotted 2px black;
+}
+
+.steak {
+  width: 100%;
+  max-height: fit-content;
+  margin-bottom: 0;
+}
+
+.formsize {
+ height: auto;
+}
+
+.background-booking {
+  width: 100%;
+}
+
+input[type=text], input[type=number], input[type="datetime-local"]{
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.form-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.opening-hours {
+  margin-left: 20px;
+  color: white;
+}
+
+.opening-hours h3 {
+  margin-left: 15%;
+}

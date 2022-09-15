@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Boka bord</title>
+  </head>
+  <body>
+    <header class="header-fixed header">
+      <div class="top-contact flex right">
+        <ul class="flex">
+          <li>
+            <p>0457392</p>
+          </li>
+          <li>
+            <p>email@who.com</p>
+          </li>
+        </ul>
+      </div>
+      <div class="flex between header-wrap transbox">
+        <div class="toplogo flex">
+          <a href="../index.html"><img
+            src="https://www.pubvagabond.se/thumbs/180x0r/intendit/graphics/vagabond-logo.png"
+            alt="logo"
+          /></a><img/>
+        </div>
+
+        <nav class="flex">
+          <a href="../index.html">Om oss</a>
+          <a href="meny.html">Meny</a>
+          <a href="">Boka bord</a>
+        </nav>
+      </div>
+    </header>
+    <img src="../images/pubben2.jpg" alt="seating" class="background-booking" />
+    <main class="formsize flex-column form-container">
+      <div class="toplogo">
+        <h2>Boka ett bord hos oss!</h2>
+      </div>
+      <form action="" class="toplogo flex-column">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Ditt namn</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="fname" /><br />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="time">Tid</label>
+          </div>
+          <div class="col-75">
+            <input type="datetime-local" id="time" name="time" /><br />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="amount">Hur många?(max 8 personer per sällskap)</label>
+          </div>
+          <div class="col-75">
+            <input type="number" id="amount" name="amount" min="1" max="8" />
+          </div>
+          <br />
+        </div>
+        <div class="row">
+          <input type="submit" value="boka" class="col-25" />
+        </div>
+      </form>
+    </main>
+
+    <footer class="footer footer-flex">
+      <div class="opening-hours">
+        <h3>Öppettider</h3>
+        <ol>
+          <li>Tisdag - Torsdag 16.00 -</li>
+          <li>Fredag 16.00 -</li>
+          <li>Lördag 12.00 -</li>
+          <li>Söndag 12.00 -</li>
+          <li>Alla "extra" röda dagar öppnar vi kl 14.00</li>
+        </ol>
+      </div>
+      <div class="footer-text">
+        <p>käglinge hyvelgatan 43</p>
+        <p>telefon: 070451103556</p>
+      </div>
+    </footer>
+  </body>
+</html>
